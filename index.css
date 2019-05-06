@@ -1,0 +1,35 @@
+html, head, body, div, h1,p{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  list-style: none;
+  font: sans-serif;
+  
+}
+
+h1{
+  font-size: 28px;
+  font-weight: 700;
+  margin: 20px 10px 10px 20px;
+}
+
+.clock {
+  color: white;
+  background-color: orange;
+  border: 2px solid black;
+  font-family: Orbitron;
+  padding: 10px;
+  background-size: cover;
+  font-size: 28px;
+  width: 550px;
+  height: 94px;
+  margin: 0 20px 20px 20px;
+  background-position-y: 20%;
+}
+.clock p{
+  margin: 12px;
+  display: flex;
+  justify-content: space-between;
+}
