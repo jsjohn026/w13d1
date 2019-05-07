@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 
 
 import Clock from './clock';
+import Tabs from './tabs';
 
 const Root = () => (
      <div> 
        <Clock />
+       <Tabs />
+
      </div>);
 
 
